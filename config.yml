@@ -1,0 +1,15 @@
+name: s1/super-xiaoer
+static:
+  repository:
+    type: git
+    url: git@10.200.51.105:f2e-projects/super-xiaoer.git
+    branch: master
+    version: HEAD
+  server_list:
+   - 10.200.51.223
+  root: /apps/data/web/working/s1.bbgstatic.com/
+  domain_name: s1.bbgstatic.com
+page:
+  server_list:
+   - 10.200.53.64
+  root: /apps/data/web/working/sys.yunhou.com/
